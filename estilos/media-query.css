@@ -1,5 +1,69 @@
 @charset "UTF-8";
 
-@media  screen and (min-width:) {
-    
+/*Typical device Breakpoints
+pequenas telas: 600px para cima
+celular: 600px ate 768px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+tv: acima de 1200px
+*/
+
+@media  screen and (min-width: 787px) and (max-width: 992px) {
+    div {
+        width: 600px;
+        height: 120px;
+    }
+    .wats {
+        margin: auto;
+        ;
+        
+        background-image: linear-gradient( 90deg, rgb(125, 255, 74), rgb(3, 180, 3));
+        border-radius: 20px;
+    }
+    .wats img {  
+        background-image: none;
+        border-radius: 0px;
+    }
+
+    #instagram {
+        margin: auto;
+        border-radius: 20px;
+        background-image: linear-gradient( 160deg, red, orange, purple);
+        
+    }
+    #instagram img {
+        border-radius: 0px;
+        background-image: none;
+        
+    }
+}
+
+@media  screen and (min-width: 991px) {
+    div {
+        width: 800px;
+        height: 120px;
+    }
+    .wats {
+        margin: auto;
+        ;
+        
+        background-image: linear-gradient( 90deg, rgb(125, 255, 74), rgb(3, 180, 3));
+        border-radius: 20px;
+    }
+    .wats img {  
+        background-image: none;
+        border-radius: 0px;
+    }
+
+    #instagram {
+        margin: auto;
+        border-radius: 20px;
+        background-image: linear-gradient( 160deg, red, orange, purple);
+        
+    }
+    #instagram img {
+        border-radius: 0px;
+        background-image: none;
+        
+    }
 }
